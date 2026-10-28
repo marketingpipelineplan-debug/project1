@@ -1,0 +1,1 @@
+# Public Vercel function uses the Python standard library only.

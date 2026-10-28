@@ -1,0 +1,12 @@
+{
+  "framework": "vite",
+  "buildCommand": "VITE_PUBLIC_HOSTED=true npm run build",
+  "functions": {"api/index.py": {"maxDuration": 180}},
+  "rewrites": [
+    {"source": "/api/trends/latest", "destination": "/api/index"},
+    {"source": "/v1/briefing", "destination": "/api/index"},
+    {"source": "/healthz", "destination": "/api/index"},
+    {"source": "/api/refresh", "destination": "/api/index"}
+  ],
+  "crons": [{"path": "/api/refresh", "schedule": "0 3 * * *"}]
+}

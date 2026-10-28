@@ -1,0 +1,24 @@
+[Unit]
+Description=Goodform public trend briefing worker and reader API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=goodform
+Group=goodform
+WorkingDirectory=/opt/goodform
+EnvironmentFile=/etc/goodform/trends.env
+Environment=GOODFORM_PUBLIC_BIND=127.0.0.1
+Environment=GOODFORM_PUBLIC_TREND_STORE=/var/lib/goodform-trends/briefing.json
+ExecStart=/usr/bin/python3 /opt/goodform/server/trend_service.py
+Restart=on-failure
+RestartSec=10
+StateDirectory=goodform-trends
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

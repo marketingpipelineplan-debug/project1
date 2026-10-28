@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Goodform",
+  "version": "0.1.0",
+  "identifier": "studio.goodform.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [{"title":"Goodform — Creator workspace","width":1360,"height":900,"minWidth":780,"minHeight":600}],
+    "security": {
+      "csp": "default-src 'self'; connect-src 'self' http://127.0.0.1:4319 ipc: http://ipc.localhost; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; object-src 'none'; base-uri 'self'"
+    }
+  },
+  "bundle": {"active":true,"targets":"all","icon":[]}
+}

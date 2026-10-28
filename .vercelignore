@@ -1,0 +1,14 @@
+.data
+.env*
+.git
+node_modules
+dist
+docs
+tests
+src-tauri
+server/app.py
+server/trend_service.py
+server/trend_client.py
+server/release_config.json
+**/__pycache__
+**/*.pyc

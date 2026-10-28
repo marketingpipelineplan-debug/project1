@@ -1,0 +1,18 @@
+{
+  "creator": {
+    "niche": "Budget vegetarian cooking",
+    "voice": "Warm, precise, no hype",
+    "goal": "Help beginners cook reliably"
+  },
+  "format": "video",
+  "constraints": {
+    "hours_available": 2,
+    "equipment": [
+      "phone",
+      "one pan"
+    ],
+    "budget_usd": 15
+  },
+  "evidence": [],
+  "creator_memory": []
+}

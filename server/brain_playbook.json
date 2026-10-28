@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "reviewed_at": "2026-10-14",
+  "scope": "Initial editorial guidance; not a comprehensive psychology curriculum or training dataset.",
+  "principles": [
+    {"id":"promise-payoff","topic":"attention and retention","guidance":"Make a specific opening promise and deliver it. Show a concrete example; remove setup that does not help the audience understand the payoff.","evidence_level":"editorial hypothesis to test"},
+    {"id":"retention-diagnosis","topic":"measurement","guidance":"Inspect dips and spikes at particular moments and compare videos of similar length. A retention chart suggests where to investigate; it does not prove the cause.","evidence_level":"platform documentation plus methodological caution","source":"https://support.google.com/youtube/answer/9314415"},
+    {"id":"advertising-abcd","topic":"advertising","guidance":"For YouTube ads, plan attention, branding, audience connection and a clear next action. Adapt to the objective; do not treat advertising guidance as an organic-ranking guarantee.","evidence_level":"platform advertising guidance","source":"https://support.google.com/google-ads/answer/14783551"},
+    {"id":"audience-job","topic":"audience psychology","guidance":"Specify the practical or emotional audience need as a hypothesis. Use supplied questions and comments as a sample, not representative demographics.","evidence_level":"editorial hypothesis to test"},
+    {"id":"earned-curiosity","topic":"storytelling","guidance":"Create curiosity with a useful unanswered question and an honest resolution. Avoid false stakes, misleading hooks, shame or fabricated scarcity.","evidence_level":"product editorial standard"},
+    {"id":"distinctive-angle","topic":"originality","guidance":"Change the premise, demonstration or perspective rather than merely changing a viral title. Use the creator's actual access, experience and constraints.","evidence_level":"product editorial standard"},
+    {"id":"trend-fit","topic":"trend selection","guidance":"Assess freshness, niche relevance and feasible execution. A large snapshot count is not measured acceleration. Evergreen content is preferable to an unrelated trend.","evidence_level":"measurement and editorial standard"},
+    {"id":"learning","topic":"experimentation","guidance":"Change one major factor, preselect a metric and comparison window, retain failures and account for audience size, distribution, paid promotion and topic demand. No causal claim from observational comparisons.","evidence_level":"product measurement standard"}
+  ]
+}
